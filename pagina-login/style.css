@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  padding-inline: 1rem;
+  overflow: hidden;
+}
+
+.container__content {
+  width: 100%;
+  padding-block: .1rem;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.container__content h2 {
+  margin-bottom: .1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #d885a3;
+}
+
+.container__content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color:#020617;
+}
+
+.container__content h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  color:#020617;
+}
+
+.container__content form {
+  display: grid;
+  gap: 5px;
+}
+
+.input__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.container__content label {
+  font-size: 0.9rem;
+  color:#020617;
+}
+
+.input__header a {
+  font-size: 0.9rem;
+  color: #3a414b;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.input__header a:hover {
+  color:#020617;
+}
+
+.input__row {
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #b5c9d4;
+  border-radius: 5px;
+}
+
+.container__content input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color:#020617;
+  background-color: transparent;
+}
+
+.container__content input::placeholder {
+  color:#020617;
+}
+
+#password-eye {
+  color: #d885a3;
+}
+
+.container__content button {
+  max-width: fit-content;
+  margin-inline: auto;
+  margin-block: 1rem 2rem;
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #d885a3;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.container__content h6 {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color:#555d61;
+  text-align: center;
+}
+
+.logins {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logins a {
+  padding: 0.5rem 2.5rem;
+  border: 2px solid#020617;
+  border-radius: 5rem;
+}
+
+.logins img {
+  display: flex;
+  max-width: 20px;
+}
+
+.container__content p {
+  color: #94a3b8;
+  text-align: center;
+}
+
+.container__content p a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #d885a3;
+}
+

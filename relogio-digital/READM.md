@@ -1,0 +1,2 @@
+Relógio Digital
+Este projeto é um exercício prático para desenvolver conhecimentos em HTML, CSS e JavaScript. Ele consiste em criar um relógio digital que exibe as horas, minutos e segundos, atualizados em tempo real.
